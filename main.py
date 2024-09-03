@@ -2,7 +2,7 @@ import smtplib
 from config import EMAIL_KEY, EMAIL_NAME
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from notefication import notify  # Certifique-se de que o nome do arquivo e da função está correto
+from notefication import notify  
 
 def send_email(recipient, subject, message):
     smtp_server = "smtp.gmail.com"
